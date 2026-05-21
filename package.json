@@ -1,0 +1,32 @@
+{
+  "name": "classywirls-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alloyed-Info-Tech/classywirls-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alloyed-Info-Tech/classywirls-backend/issues"
+  },
+  "homepage": "https://github.com/Alloyed-Info-Tech/classywirls-backend#readme",
+  "dependencies": {
+    "@prisma/client": "6.19.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.4",
+    "nodemon": "^3.1.14",
+    "prisma": "6.19.0"
+  }
+}
